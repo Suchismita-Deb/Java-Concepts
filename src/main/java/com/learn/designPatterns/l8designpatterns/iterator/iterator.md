@@ -1,0 +1,1 @@
+(https://nitinkc.github.io/java/design%20patterns/iterator-patterns/)[https://nitinkc.github.io/java/design%20patterns/iterator-patterns/]
