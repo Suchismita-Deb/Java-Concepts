@@ -1,4 +1,4 @@
-package com.learn.designPattern.factory;
+package com.learn.designPattern.creational.factory;
 
 public class Lion implements Animal{
 
