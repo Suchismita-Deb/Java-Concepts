@@ -2,7 +2,7 @@ package com.learn.designPatterns.creational.builder;
 
 public class Runner {
     public static void main(String[] args) {
-        BuilderDemoPerson person = new BuilderDemoPerson.Builder("name","email")
+        Person person = new Person.PersonBuilder("name","email")
                 .setAge(25)
                 .build();
 

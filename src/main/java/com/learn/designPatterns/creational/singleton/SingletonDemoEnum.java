@@ -2,10 +2,10 @@ package com.learn.designPatterns.creational.singleton;
 
 //This ENUM acts as a singleton bean
 public enum SingletonDemoEnum {
-    INSTANCE();
+    INSTANCE;
 
     public String doSomething(){
-        return "Nitin";
+        return "Do something inside Enum";
     }
 
 }
