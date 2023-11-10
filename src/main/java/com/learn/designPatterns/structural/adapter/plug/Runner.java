@@ -1,4 +1,4 @@
-package com.learn.designPatterns.l8designpatterns.adapter.plug;
+package com.learn.designPatterns.structural.adapter.plug;
 
 public class Runner {
     public static void main(String[] args) {
@@ -10,7 +10,7 @@ public class Runner {
         System.out.println("The Plug Adapter says...");
 
         Switch indianSwitch = new IndianSwitch();
-        Plug plugAdapter = new PlugAdapter(indianSwitch);
+        Plug plugAdapter = new SwitchToPlugAdapter(indianSwitch);
         plugAdapter.pin3();
 
     }

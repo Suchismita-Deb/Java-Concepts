@@ -1,4 +1,4 @@
-package com.learn.designPatterns.l8designpatterns.strategy;
+package com.learn.designPatterns.behavioural.strategy;
 
 import lombok.Builder;
 import lombok.ToString;

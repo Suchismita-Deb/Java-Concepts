@@ -1,4 +1,4 @@
-package com.learn.designPatterns.l8designpatterns.iterator;
+package com.learn.designPatterns.iterator;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.learn.utilities.entity.Card;

@@ -1,4 +1,4 @@
-package com.learn.designPatterns.l8designpatterns.strategy;
+package com.learn.designPatterns.behavioural.strategy;
 
 import java.util.List;
 import java.util.function.Predicate;

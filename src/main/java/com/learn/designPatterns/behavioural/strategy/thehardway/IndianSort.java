@@ -1,4 +1,4 @@
-package com.learn.designPatterns.l8designpatterns.strategy.thehardway;
+package com.learn.designPatterns.behavioural.strategy.thehardway;
 
 import lombok.AllArgsConstructor;
 

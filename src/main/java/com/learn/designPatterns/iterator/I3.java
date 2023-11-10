@@ -1,4 +1,4 @@
-package com.learn.designPatterns.l8designpatterns.iterator;
+package com.learn.designPatterns.iterator;
 
 import java.util.Iterator;
 import java.util.List;

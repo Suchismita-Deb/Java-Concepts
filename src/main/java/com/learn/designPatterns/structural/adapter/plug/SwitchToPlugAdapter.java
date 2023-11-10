@@ -1,9 +1,9 @@
-package com.learn.designPatterns.l8designpatterns.adapter.plug;
+package com.learn.designPatterns.structural.adapter.plug;
 
-public class PlugAdapter implements Plug {//Adapter implements the Target interface
+public class SwitchToPlugAdapter implements Plug {//Adapter implements the Target interface
     Switch indianSwitch;//Adapter is composed with the Adaptee
 
-    public PlugAdapter(Switch indianSwitch) {
+    public SwitchToPlugAdapter(Switch indianSwitch) {
         System.out.println("\nPlugging Adapter");
         this.indianSwitch = indianSwitch;
     }

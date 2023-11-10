@@ -17,6 +17,8 @@ public class TypeCastingTests {
         int j = (int) n;
         System.out.println(i);
         System.out.println(j);
+
+
     }
 }
 
