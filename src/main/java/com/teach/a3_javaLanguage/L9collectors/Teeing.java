@@ -1,4 +1,4 @@
-package com.teach.a3_javaLanguage.lcollectors;
+package com.teach.a3_javaLanguage.L9collectors;
 
 
 import java.util.List;

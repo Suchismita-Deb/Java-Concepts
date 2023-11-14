@@ -1,4 +1,4 @@
-package com.teach.a3_javaLanguage.lcollectors.c3groupby;
+package com.teach.a3_javaLanguage.L9collectors.c3groupby;
 
 import java.util.*;
 import java.util.function.Function;

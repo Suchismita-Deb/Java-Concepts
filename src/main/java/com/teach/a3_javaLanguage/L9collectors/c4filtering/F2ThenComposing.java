@@ -1,4 +1,4 @@
-package com.teach.a3_javaLanguage.lcollectors.c4filtering;
+package com.teach.a3_javaLanguage.L9collectors.c4filtering;
 
 public class F2ThenComposing {
     public static void main(String[] args) {

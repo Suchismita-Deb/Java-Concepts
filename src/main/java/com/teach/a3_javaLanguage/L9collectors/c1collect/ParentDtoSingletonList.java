@@ -1,4 +1,4 @@
-package com.teach.a3_javaLanguage.lcollectors.c1collect;
+package com.teach.a3_javaLanguage.L9collectors.c1collect;
 
 import java.util.Arrays;
 import java.util.Collections;

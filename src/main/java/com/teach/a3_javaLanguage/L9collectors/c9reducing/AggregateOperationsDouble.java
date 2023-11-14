@@ -1,4 +1,4 @@
-package com.teach.a3_javaLanguage.lcollectors.c9reducing;
+package com.teach.a3_javaLanguage.L9collectors.c9reducing;
 
 import com.teach.utilities.SampleData;
 import com.teach.utilities.entity.EmployeeSimple;

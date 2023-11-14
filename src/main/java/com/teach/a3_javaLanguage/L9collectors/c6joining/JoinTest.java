@@ -1,4 +1,4 @@
-package com.teach.a3_javaLanguage.lcollectors.c6joining;
+package com.teach.a3_javaLanguage.L9collectors.c6joining;
 
 import java.util.List;
 import java.util.stream.Collectors;

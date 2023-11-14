@@ -1,4 +1,4 @@
-package com.teach.a3_javaLanguage.lcollectors.c8minMaxAvgCount;
+package com.teach.a3_javaLanguage.L9collectors.c8minMaxAvgCount;
 
 import com.teach.utilities.SampleData;
 import com.teach.utilities.entity.EmployeeSimple;

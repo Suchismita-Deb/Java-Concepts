@@ -1,4 +1,4 @@
-package com.teach.a3_javaLanguage.lcollectors.c7collectingAndThen;
+package com.teach.a3_javaLanguage.L9collectors.c7collectingAndThen;
 
 import com.teach.utilities.SampleData;
 import com.teach.utilities.entity.EmployeeSimple;

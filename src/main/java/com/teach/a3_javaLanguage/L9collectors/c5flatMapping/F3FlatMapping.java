@@ -1,4 +1,4 @@
-package com.teach.a3_javaLanguage.lcollectors.c5flatMapping;
+package com.teach.a3_javaLanguage.L9collectors.c5flatMapping;
 
 import com.teach.utilities.SampleData;
 import com.teach.utilities.entity.EmployeeSimple;
