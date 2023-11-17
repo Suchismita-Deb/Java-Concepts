@@ -2,17 +2,18 @@ package com.teach.designPatterns.behavioural.strategy;
 
 import java.util.List;
 import java.util.function.Predicate;
+import java.util.stream.Collectors;
 
 public class StrategyDesign {
     public static void main(String[] args) {
-        var list = List.of(1,2,3,4,5,6,7,8,9);
+        var list = List.of(1, 2, 3, 4, 5, 6, 7, 8, 9);
 
-        System.out.println(operation(list, num -> num %2 == 0));
-        System.out.println(operation(list, num -> num %2 != 0));
+        System.out.println(operation(list, num -> num % 2 == 0));
+        System.out.println(operation(list, num -> num % 2 != 0));
 
         System.out.println("--------------");
-        System.out.println(operationWithStreams(list, num -> num %2 == 0));
-        System.out.println(operationWithStreams(list, num -> num %2 != 0));
+        System.out.println(operationWithStreams(list, num -> num % 3 == 0));
+        System.out.println(operationWithStreams(list, num -> num % 3 != 0));
 
         System.out.println(list);
     }
@@ -21,9 +22,9 @@ public class StrategyDesign {
         //Imperative style : Can be avoided due shared mutability.
         int total = 0;
 
-        for (var num : list){
-            if (selector.test(num)){
-                total = total + num;
+        for (var num : list) {
+            if (selector.test(num)) {
+                total = num * 2;
             }
         }
 
@@ -32,9 +33,17 @@ public class StrategyDesign {
 
     public static double operationWithStreams(List<Integer> list, Predicate<Integer> selector) {
 
-      return list.stream()
-              .filter(selector)
-              .mapToDouble(num -> Double.valueOf(String.valueOf(num)))
-              .sum();
+        return list.stream()
+                .filter(selector)
+                .mapToDouble(num -> Double.valueOf(String.valueOf(num)))
+                .sum();
     }
+
+   /* public static List<T> operationWithStreams(List<Integer> list, Predicate<Integer> selector, Operation operation) {
+
+        return list.stream()
+                .filter(selector)
+                .map(num -> operation(num))
+                .collect(Collectors.toList());
+    }*/
 }

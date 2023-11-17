@@ -10,13 +10,13 @@ public class StrategyDesignPattern {
         // List -> transformed list with double even numbers
         List<Integer> integerList = List.of(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
 
-        List<Integer> integerTransformedList = transformation(integerList);
+        List<Integer> integerTransformedList = transformationEven(integerList);
         List<Integer> integerTransformedList2 = transformationOdd(integerList);
-        List<Integer> integerTransformedList3 = transformationOdd(integerList);
+        List<Integer> integerTransformedList3 = transformation3(integerList);
 
     }
 
-    private static List<Integer> transformation(List<Integer> integerList) {
+    private static List<Integer> transformationEven(List<Integer> integerList) {
         List<Integer> integers = integerList.stream()
                 .filter(num -> num % 2 == 0)
                 .map(num -> num * 2)
@@ -34,7 +34,7 @@ public class StrategyDesignPattern {
 
     private static List<Integer> transformation3(List<Integer> integerList) {
         List<Integer> integers = integerList.stream()
-                .filter(num -> num % 2 == 0)
+                .filter(num -> num % 3 == 0)
                 //.map(num -> num * 2)
                 .collect(Collectors.toList());
         return integers;
