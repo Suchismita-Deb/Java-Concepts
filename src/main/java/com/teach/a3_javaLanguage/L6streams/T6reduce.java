@@ -13,9 +13,8 @@ public class T6reduce {
 
     public static void m1() {
         List<String> arr = List.of("n", "i", "t", "i", "n");
-
         String name = arr.stream().
-                reduce("", String::concat);
+                reduce("*", String::concat);
 
         System.out.println(name);
     }
