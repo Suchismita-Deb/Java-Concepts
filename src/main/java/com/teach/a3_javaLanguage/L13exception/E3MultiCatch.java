@@ -1,8 +1,8 @@
-package com.teach.a3_javaLanguage.zzz_exception;
+package com.teach.a3_javaLanguage.L13exception;
 
 import java.io.*;
 
-public class E2TryWithResources {
+public class E3MultiCatch {
     public static void main(String[] args) {
         String filePath = "src/main/resources/test.txt";
         String writeMe = "Testing";
@@ -14,11 +14,13 @@ public class E2TryWithResources {
 
         //Try with Resource
         try(ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream(new File(path)));) {
+            writeMe = writeMe + " :: "+String.valueOf(10/10);
             oos.writeObject(writeMe);
-        } catch (FileNotFoundException e)  {
+
+        } catch (IOException | ArithmeticException e )  {
             e.printStackTrace();
-        } catch (IOException e) {
-            e.printStackTrace();
+        }finally {
+            System.out.println("Always Run this as well");
         }
         return null;
     }

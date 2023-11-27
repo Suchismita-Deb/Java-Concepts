@@ -1,4 +1,4 @@
-package com.teach.a3_javaLanguage.zzz_exception;
+package com.teach.a3_javaLanguage.L13exception;
 
 public class E1BasicExceptions {
     public static void main(String[] args) {

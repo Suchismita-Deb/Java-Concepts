@@ -1,4 +1,4 @@
-package com.teach.a3_javaLanguage.zzz_exception;
+package com.teach.a3_javaLanguage.L13exception;
 
 public class Driver {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.teach.a3_javaLanguage.zzz_exception;
+package com.teach.a3_javaLanguage.L13exception;
 
 //User defined exceptions should always be CHECKED
 public class CannotEatException extends Exception{
