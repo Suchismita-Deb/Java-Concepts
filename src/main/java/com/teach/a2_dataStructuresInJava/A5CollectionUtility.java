@@ -6,12 +6,10 @@ public class A5CollectionUtility {
     public static void main(String[] args) {
         List<Integer> integerListWithNull = Arrays.asList(5, 6, 71, 2, 3);
 
-        Collections.sort(integerListWithNull);
-        System.out.println(integerListWithNull.toString());
+        Collections.sort(integerListWithNull);//Not Null Safe, gives NPE if there is a null
+        System.out.println("After First Sorting " + integerListWithNull.toString());
 
-        Collections.sort(integerListWithNull, Comparator.reverseOrder());
-
-        Collections.reverseOrder();
+        Collections.sort(integerListWithNull, Collections.reverseOrder());
         System.out.println(integerListWithNull.toString());
 
         Set<Integer> integerSetWithoutNull = new TreeSet<>();//Sorting via Tree

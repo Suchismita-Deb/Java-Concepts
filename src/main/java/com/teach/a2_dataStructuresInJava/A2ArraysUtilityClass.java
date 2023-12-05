@@ -22,5 +22,4 @@ public class A2ArraysUtilityClass {
         Arrays.sort(stringArray, Comparator.reverseOrder());
         System.out.println(Arrays.toString(stringArray));
     }
-
 }

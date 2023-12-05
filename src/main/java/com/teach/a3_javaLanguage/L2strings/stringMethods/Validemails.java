@@ -1,7 +1,8 @@
 package com.teach.a3_javaLanguage.L2strings.stringMethods;
 
 
-import a2utilities.L2strings.IncorrectEmailIdException;
+
+import com.teach.a3_javaLanguage.L13exception.IncorrectEmailIdException;
 
 import java.util.ArrayList;
 import java.util.Arrays;
