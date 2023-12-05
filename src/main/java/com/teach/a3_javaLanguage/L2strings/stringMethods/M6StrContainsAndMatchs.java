@@ -17,5 +17,13 @@ public class M6StrContainsAndMatchs {
 
         boolean matches = list.get(0).matches("[rR][eE][dD][dD][yY]");
         System.out.println(matches);
+
+        String sentence = "Hello, world!";
+        // Check if the string contains a specific substring
+        boolean containsHello = sentence.contains("Hello");
+
+        String phoneNumber = "123-456-7890";
+        // Check if the string matches a regular expression for a phone number
+        boolean isValidPhoneNumber = phoneNumber.matches("\\d{3}-\\d{3}-\\d{4}");
     }
 }
