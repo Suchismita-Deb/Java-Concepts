@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class StrContainsAndMatchs {
+public class M6StrContainsAndMatchs {
     public static void main(String[] args) {
         List<String> list = Arrays.asList("Rakeshreddy reddy", "Kavita Reddy", "Malvika malkireddy",
                 "yogitha malgireddy", "Deepthi Vempati", "Reddy", "redDy");
@@ -14,5 +14,8 @@ public class StrContainsAndMatchs {
                 .filter((s -> s.contains("Reddy")))
                 .collect(Collectors.toList());
         System.out.println(list1);
+
+        boolean matches = list.get(0).matches("[rR][eE][dD][dD][yY]");
+        System.out.println(matches);
     }
 }

@@ -1,6 +1,6 @@
 package com.teach.a3_javaLanguage.L2strings.stringMethods;
 
-public class StrStrip {
+public class M4StrStrip {
     public static void main(String[] args) {
         String s = " Malgudi Days   ";
 

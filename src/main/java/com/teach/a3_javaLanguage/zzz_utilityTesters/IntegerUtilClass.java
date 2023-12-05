@@ -3,6 +3,7 @@ package com.teach.a3_javaLanguage.zzz_utilityTesters;
 import org.apache.commons.lang3.BooleanUtils;
 import org.apache.commons.lang3.math.NumberUtils;
 
+import javax.persistence.criteria.CriteriaBuilder;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -89,6 +90,7 @@ public class IntegerUtilClass {
         int i = 89;
         Integer intVal = Integer.valueOf(i);//From String or primitive to Wrapper
         System.out.println(intVal);
+        System.out.println(Integer.valueOf("90"));
 
         String strIntVal= "-90";
         int j = Integer.parseInt(strIntVal);//From String to primitive

@@ -1,6 +1,6 @@
 package com.teach.a3_javaLanguage.L2strings.stringMethods;
 
-public class StrEquals {
+public class M2StrEquals {
     public static void main(String[] args) {
 
         String movie = new String("Harry Potter");
@@ -13,5 +13,7 @@ public class StrEquals {
         // without obj creation both  returns true
         System.out.println(food == foods);
         System.out.println(food.equals(foods));
+
+        System.out.println(movie.equalsIgnoreCase("harry potter"));
     }
 }

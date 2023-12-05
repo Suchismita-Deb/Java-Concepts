@@ -1,8 +1,12 @@
 package com.teach.a3_javaLanguage.L2strings.stringMethods;
 
-public class StrReplace {
+public class M8StrReplace {
     public static void main(String[] args) {
         String str = "Replace Strings";
+
+        System.out.println(str.replace('e','*'));
+        System.out.println(str.replace("a","$$"));
+
         String str1 = str.replaceAll(" ", "" );
         System.out.println(str1);
     }
