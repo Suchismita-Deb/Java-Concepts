@@ -10,16 +10,10 @@ public class P3FindNthBit {
         int bitmask = 1 << n;
 
         // Use bitwise AND to check if the nth bit is set
-        int result = (number & bitmask) >> n;
+        int result = (number & bitmask);//& operator returns the same number with 1
+
+        result = result >> n;//Keeping only the required bit as 1
 
         System.out.println("The " + n + "th bit of " + number + " is: " + result);
-
-
-        //& operator returns the same number with 1
-        int tempNumber = n & bitmask;
-        System.out.println(Integer.toBinaryString(tempNumber));
-
-        int nthBit = tempNumber >> n;
-        System.out.println(Integer.toBinaryString(nthBit));
     }
 }
