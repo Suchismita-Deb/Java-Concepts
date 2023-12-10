@@ -4,8 +4,9 @@ public class B2LSB {
     public static void main(String[] args) {
         int x = 0b11111111111111111111111111110001;
 
+        //Logic : Communicative Identity : a * 1 = 1 * a = a
         //LSB and & operator
-        short lsb = (short) (x & 1);//Give ONLY the LSB
-        System.out.println(lsb);
+        short lsb = (short) (x & 000000000000001);//Give ONLY the LSB
+        System.out.println("x = " + x + " LSB of x = " + lsb);
     }
 }

@@ -6,7 +6,7 @@ public class B4SetNthBit {
         int n = 2;      // Set the 2nd bit from LSB (0-based index)
 
         // Using bitwise OR to set the nth bit from LSB
-        int result = number | (1 << n);
+        int result = number | (1 << n); // 1 + number = 1
 
         // Displaying the binary representation of the result and original number
         System.out.println("Original Number:           " + Integer.toBinaryString(number));
